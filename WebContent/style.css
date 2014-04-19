@@ -1,11 +1,9 @@
 @CHARSET "UTF-8";
-
 html {
 height: 100%;
 margin-bottom: 1px;
 font-size: 100.01%
 }
-
 body {
 font-family: Verdana, Helvetica, sans-serif;
 color: #000;
@@ -13,8 +11,6 @@ background: #fff;
 margin: 0;
 padding: 0
 }
-
-#container {width:100%, height:100%}
 #header {
 background: #069;
 height: 90px;
@@ -22,12 +18,36 @@ position: relative;
 min-width: 800px
 }
 
+#unilogo {
+position:absolute;
+border:0;
+right: 0;
+margin: 12px 17px 0 0
+}
+
+
+#hotlinks {
+font-size: .97em;
+color: #ffffff;
+position: absolute;
+border: 0;
+padding-right: 5px;
+width: 100%; 
+}
+
+#hotlinks .right {
+text-align: right;
+color: #ffffff;
+}
+
+
+
 #menubar {
 color: #fff;
 background: #666;
 position: relative;
-width:100%;
-height:20px;
+min-width: 800px;
+height:30px;
 font-size: .75em;
 }
 
@@ -50,11 +70,11 @@ background: #069;
 color: #fff
 }
 
-#content{background-color:#fff;
-height:200px;
-width:100%;
-float:center;
-margin-left:10px;
+#content {
+line-height: 1.6em;
+margin: 10px 10px 10px 10px;
+max-width: 800px;
+font-size: .70em;
 }
 
 #footer{background-color:#7a7a7a;
